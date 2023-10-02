@@ -13,7 +13,7 @@ class Test1 extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Test-1' , style: TextStyle(fontWeight: FontWeight.bold , fontSize: 25),),
+              Text('Test -1' , style: TextStyle(fontWeight: FontWeight.bold , fontSize: 25),),
               SizedBox(height: 10,),
               ElevatedButton(
                 child: Text('Move'),
